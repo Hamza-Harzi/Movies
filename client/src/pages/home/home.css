@@ -1,0 +1,223 @@
+.Sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 300px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 80px 300px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+
+.logo {
+  height: 12vh;
+  width: 20vw;
+}
+
+.img-sm {
+  height: 5vh;
+}
+
+.fb-btn {
+  background-color: rgb(0, 60, 255);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.tw-btn {
+  background-color: rgb(0, 153, 255);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.WT-btn {
+  background-color: rgba(0, 255, 34, 0.89);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.messenger-btn {
+  background-color: rgb(4, 0, 255);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.reddit-btn {
+  background-color: rgb(255, 115, 0);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.tel-btn {
+  background-color: rgb(0, 113, 189);
+  padding: 2px 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.disc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 80px 300px;
+  font-size: 24px;
+  line-height: 1.8;
+  color: rgb(238, 235, 238);
+  text-shadow: 1px 1px 1px #b4b2b257;
+}
+a {
+  text-decoration: none;
+}
+
+.home-btn {
+  border: 0px solid rgb(202, 200, 200);
+  margin: 60px 40%;
+  padding: 20px 40px;
+  border: 5px solid #333333;
+  border-radius: 30px 30px;
+  font-size: 25px;
+}
+
+.home-btn:hover {
+  color: rgb(24, 24, 24);
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 500px;
+  font-size: 30px;
+  color: rgb(240, 230, 230);
+}
+.list {
+  color: rgb(240, 230, 230);
+}
+.list:hover {
+  color: red;
+  font-size: 35px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 80px 300px;
+  font-size: 24px;
+  line-height: 1.8;
+  color: rgb(238, 235, 238);
+}
+.st-label {
+  color: white;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0
+    url("https://cdn.vox-cdn.com/thumbor/wXI6mFT7SnJWLx3uknpzN6kml84=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20060894/jbareham_200630_0906_movie_theater_0001.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+.form-movies {
+  background-color: transparent;
+  /* min-width: 100vw; */
+  padding: auto 700px;
+  margin: auto 450px;
+  position: relative;
+}
+
+.input-movies {
+  width: 70vw;
+  height: 10vh;
+  border-radius: 40px 40px;
+  font-size: 16;
+  border: 1px solid gray;
+  margin-bottom: 15em;
+}
+
+.input-movies[type="search"] {
+  padding-right: 40px;
+  /* adjust the padding value as needed */
+}
+
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 250px;
+}
+
+.popular h2 {
+  color: white;
+}
+
+input[type="search"]::placeholder {
+  color: #999;
+  font-style: italic;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.btn-movies {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 10vh;
+
+  margin: 1px -200px;
+  border-radius: 40px 40px;
+}
+
+.my-films {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin: auto auto;
+
+  width: 100vw;
+}
